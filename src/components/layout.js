@@ -12,13 +12,13 @@ export function Layout({ pageTitle, children }) {
     <div className="MAIN-CONTAINER">
       <GlobalStyles />
       <title>{pageTitle}</title>
-      {/* <Nav /> */}
+      <Nav />
       <main>
         {children}
         <Vision />
       </main>
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -2,3 +2,4 @@ node_modules
 .git
 my-gatsby-site
 .cache
+public
