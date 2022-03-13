@@ -45,6 +45,7 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-color: white;
 `;
 
 export function PrimaryHero(props) {
