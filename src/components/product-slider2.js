@@ -1,12 +1,12 @@
-import * as React from 'react';
-import tw from 'twin.macro';
-import Slider from 'react-slick';
-import ProductCardLandscape from './product-card-landscape';
-import { StaticImage } from 'gatsby-plugin-image';
-import WowSolar from './wowsolar';
+import * as React from "react";
+import tw from "twin.macro";
+import Slider from "react-slick";
+import ProductCardLandscape from "./product-card-landscape";
+import { StaticImage } from "gatsby-plugin-image";
+import WowSolar from "./wowsolar";
 
-import Button from './_/button';
-import SliderButton from './btn-slider-arrow';
+import Button from "./_/button";
+import SliderButton from "./btn-slider-arrow";
 
 export function ProductSlider2({ heading, reverse = false, ...rest }) {
   const sliderRef = React.useRef();
@@ -38,8 +38,8 @@ export function ProductSlider2({ heading, reverse = false, ...rest }) {
           }}
           css={[
             {
-              bottom: '5%',
-              left: '10%',
+              bottom: "5%",
+              left: "10%",
             },
           ]}
         />
@@ -48,7 +48,7 @@ export function ProductSlider2({ heading, reverse = false, ...rest }) {
           <div
             css={[
               {
-                width: '110vw',
+                width: "110vw",
               },
             ]}
           >
@@ -65,7 +65,7 @@ export function ProductSlider2({ heading, reverse = false, ...rest }) {
                     />
                   }
                   title={
-                    <WowSolar tw="text-px18 lg:text-px32" model={'TV24100'} />
+                    <WowSolar tw="text-px18 lg:text-px32" model={"TV24100"} />
                   }
                   caption={
                     <div tw="text-px16 lg:text-px18">
@@ -92,7 +92,7 @@ export function ProductSlider2({ heading, reverse = false, ...rest }) {
                     />
                   }
                   title={
-                    <WowSolar tw="text-px18 lg:text-px32" model={'TV32120'} />
+                    <WowSolar tw="text-px18 lg:text-px32" model={"TV32120"} />
                   }
                   caption={
                     <div tw="text-px16 lg:text-px18">
@@ -120,7 +120,7 @@ export function ProductSlider2({ heading, reverse = false, ...rest }) {
                     />
                   }
                   title={
-                    <WowSolar tw="text-px16 lg:text-px32" model={'TV24100'} />
+                    <WowSolar tw="text-px16 lg:text-px32" model={"TV24100"} />
                   }
                   caption={
                     <div tw="text-px16 lg:text-px18">
@@ -147,7 +147,7 @@ export function ProductSlider2({ heading, reverse = false, ...rest }) {
                     />
                   }
                   title={
-                    <WowSolar tw="text-px18 lg:text-px32" model={'TV32120'} />
+                    <WowSolar tw="text-px18 lg:text-px32" model={"TV32120"} />
                   }
                   caption={
                     <div tw="text-px16 lg:text-px18">
