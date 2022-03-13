@@ -16,9 +16,10 @@ export function ProductSlider2({ heading, reverse = false, ...rest }) {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
+    variableWidth: true,
     responsive: [
       {
-        breakpoint: 480,
+        breakpoint: 3000,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -53,9 +54,8 @@ export function ProductSlider2({ heading, reverse = false, ...rest }) {
             ]}
           >
             <Slider ref={sliderRef} tw="lg:-mr-80" {...productSliderSettings}>
-              <div tw="px-4">
+              <div tw="px-10">
                 <ProductCardLandscape
-                  css={[reverse && tw`bg-white`]}
                   img={
                     <StaticImage
                       alt=""
@@ -80,7 +80,7 @@ export function ProductSlider2({ heading, reverse = false, ...rest }) {
                   }
                 />
               </div>
-              <div tw="px-4">
+              <div tw="px-10">
                 <ProductCardLandscape
                   css={[reverse && tw`bg-white rounded-none`]}
                   img={
@@ -108,7 +108,7 @@ export function ProductSlider2({ heading, reverse = false, ...rest }) {
                   }
                 />
               </div>
-              <div tw="px-4">
+              <div tw="px-10">
                 <ProductCardLandscape
                   css={[reverse && tw`bg-white`]}
                   img={
@@ -135,7 +135,7 @@ export function ProductSlider2({ heading, reverse = false, ...rest }) {
                   }
                 />
               </div>
-              <div tw="px-4">
+              <div tw="px-10">
                 <ProductCardLandscape
                   css={[reverse && tw`bg-white rounded-none`]}
                   img={
