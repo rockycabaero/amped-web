@@ -8,7 +8,7 @@ import WowSolar from './wowsolar';
 import Button from './_/button';
 import SliderButton from './btn-slider-arrow';
 
-export function ProductSlider({ heading, reverse = false, ...rest }) {
+export function LightingSlider({ heading, reverse = false, ...rest }) {
   const sliderRef = React.useRef();
   const productSliderSettings = {
     infinite: true,
@@ -16,9 +16,10 @@ export function ProductSlider({ heading, reverse = false, ...rest }) {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
+    variableWidth: true,
     responsive: [
       {
-        breakpoint: 480,
+        breakpoint: 3000,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -213,4 +214,4 @@ export function ProductSlider({ heading, reverse = false, ...rest }) {
   );
 }
 
-export default ProductSlider;
+export default LightingSlider;

@@ -1,22 +1,22 @@
-import * as React from 'react';
-import tw, { css } from 'twin.macro';
-import Layout from '../components/layout';
-import HeroLightingAndPhoneCharging from '../components/heroes/lighting-and-phone-charging';
-import ComparisonTable from '../components/camparison-table';
-import UpgradeSteps2 from '../components/upgrade-steps-2';
-import ExtraInfoLight from '../components/extra-info-light';
-import BecomeDistributor from '../components/sections/become-distributor';
-import { SubHeader } from '../components/_/header';
-import { Text } from '../components/_/text';
-import SvgCard from '../components/svg-card';
+import * as React from "react";
+import tw, { css } from "twin.macro";
+import Layout from "../components/layout";
+import HeroLightingAndPhoneCharging from "../components/heroes/lighting-and-phone-charging";
+import ComparisonTable from "../components/camparison-table";
+import UpgradeSteps2 from "../components/upgrade-steps-2";
+import ExtraInfoLight from "../components/extra-info-light";
+import BecomeDistributor from "../components/sections/become-distributor";
+import { SubHeader } from "../components/_/header";
+import { Text } from "../components/_/text";
+import SvgCard from "../components/svg-card";
 
-import SvgBrighterLamp from '../assets/brighter-lamp.svg';
-import SvgPhoneCharging from '../assets/phone-charging.svg';
-import SvgLongerTorchOrRadioRuntime from '../assets/longer-torch-or-radio-runtime.svg';
-import InFieldGallery from '../components/in-field-gallery';
-import WowSolar from '../components/wowsolar';
-import ProductSlider from '../components/product-slider';
-import Slider from 'react-slick';
+import SvgBrighterLamp from "../assets/brighter-lamp.svg";
+import SvgPhoneCharging from "../assets/phone-charging.svg";
+import SvgLongerTorchOrRadioRuntime from "../assets/longer-torch-or-radio-runtime.svg";
+import InFieldGallery from "../components/in-field-gallery";
+import WowSolar from "../components/wowsolar";
+import LightingSlider from "../components/lighting-slider";
+import Slider from "react-slick";
 
 const tableContainer = css`
   ${tw`overflow-x-scroll lg:overflow-visible`}
@@ -84,14 +84,14 @@ export default function ProductLightingAndPhoneCharging(props) {
                 <SvgCard
                   tw="h-full"
                   icon={
-                    <SvgBrighterLamp css={[{ width: 96, height: '100%' }]} />
+                    <SvgBrighterLamp css={[{ width: 96, height: "100%" }]} />
                   }
                   content={<div>More Light Points and Brighter Lamps</div>}
                 />
                 <SvgCard
                   tw="h-full"
                   icon={
-                    <SvgPhoneCharging css={[{ width: 96, height: '100%' }]} />
+                    <SvgPhoneCharging css={[{ width: 96, height: "100%" }]} />
                   }
                   content={<div>More Phone Charging</div>}
                 />
@@ -100,7 +100,7 @@ export default function ProductLightingAndPhoneCharging(props) {
                   tw="h-full"
                   icon={
                     <SvgLongerTorchOrRadioRuntime
-                      css={[{ width: 96, height: '100%' }]}
+                      css={[{ width: 96, height: "100%" }]}
                     />
                   }
                   content={<div>Longer Torch/ Radio Runtime</div>}
@@ -114,7 +114,7 @@ export default function ProductLightingAndPhoneCharging(props) {
         <div tw="lg:w-9/12 m-auto">
           <SubHeader tw="mb-16">Products</SubHeader>
         </div>
-        <ProductSlider />
+        <LightingSlider />
       </div>
       <div tw="bg-sitegray lg:py-48 py-12">
         <div tw="w-9/12 m-auto">

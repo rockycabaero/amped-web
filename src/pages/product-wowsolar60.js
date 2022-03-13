@@ -11,7 +11,7 @@ import SVGPaygoController from '../assets/ico-paygo-controller.svg';
 import SVGSolarPanel from '../assets/ico-solar-panel.svg';
 import { SvgCardLandscape, SvgCard } from '../components/svg-card';
 import ExtraInfoFill from '../components/extra-info-fill';
-import ProductSlider from '../components/product-slider';
+import LightingSlider from '../components/lighting-slider';
 import BecomeDistributor2 from '../components/sections/become-distributor2';
 import { StaticImage } from 'gatsby-plugin-image';
 import BannerLogo from '../assets/logo-wowsolar60.svg';
@@ -163,7 +163,7 @@ export default function ProductWowsolar60() {
       </div>
 
       <div>
-        <ProductSlider
+        <LightingSlider
           heading={
             <div tw="w-9/12 mx-auto font-sf-light text-px54 mb-12">
               Other similar products

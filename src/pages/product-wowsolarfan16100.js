@@ -8,7 +8,6 @@ import DataAndSpecSummary from '../components/data-and-spec-summary';
 import Button from '../components/_/button';
 import { SvgCardLandscape, SvgCard } from '../components/svg-card';
 import ExtraInfoFill from '../components/extra-info-fill';
-import ProductSlider from '../components/product-slider';
 import BecomeDistributor2 from '../components/sections/become-distributor2';
 import SvgLight from '../assets/ico-light.svg';
 

@@ -9,7 +9,7 @@ import Button from '../components/_/button';
 import SvgLight from '../assets/ico-light.svg';
 import { SvgCardLandscape, SvgCard } from '../components/svg-card';
 import ExtraInfoFill from '../components/extra-info-fill';
-import ProductSlider from '../components/product-slider';
+import LightingSlider from '../components/lighting-slider';
 import BecomeDistributor2 from '../components/sections/become-distributor2';
 import SvgRadio from '../assets/ico-radio.svg';
 import SvgTorch from '../assets/ico-torch.svg';
@@ -182,7 +182,7 @@ export default function ProductWowsolar400() {
         </div>
       </div>
       <div>
-        <ProductSlider
+        <LightingSlider
           heading={
             <div tw="w-9/12 mx-auto font-sf-light text-px54 mb-12">
               Other similar products

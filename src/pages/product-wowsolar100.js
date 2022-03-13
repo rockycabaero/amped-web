@@ -12,7 +12,7 @@ import SVGSolarGrid from '../assets/ico-solar-panel.svg';
 import SVGRadio from '../assets/ico-radio.svg';
 import { SvgCardLandscape, SvgCard } from '../components/svg-card';
 import ExtraInfoFill from '../components/extra-info-fill';
-import ProductSlider from '../components/product-slider';
+import LightingSlider from '../components/lighting-slider';
 import BecomeDistributor2 from '../components/sections/become-distributor2';
 import SvgRadio from '../assets/ico-radio.svg';
 import BannerLogo from '../assets/logo-wowsolar100.svg';
@@ -178,7 +178,7 @@ export default function ProductWowsolar100() {
         </div>
       </div>
       <div>
-        <ProductSlider
+        <LightingSlider
           heading={
             <div tw="w-9/12 mx-auto font-sf-light text-px54 mb-12">
               Other similar products

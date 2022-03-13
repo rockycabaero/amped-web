@@ -12,7 +12,7 @@ import SVGPaygoController from '../../../assets/ico-paygo-controller.svg';
 import SVGSolarPanel from '../../../assets/ico-solar-panel.svg';
 import { SvgCardLandscape, SvgCard } from '../../../components/svg-card';
 import ExtraInfoFill from '../../../components/extra-info-fill';
-import ProductSlider from '../../../components/product-slider';
+import LightingSlider from '../../../components/lighting-slider';
 import BecomeDistributor from '../../../components/sections/become-distributor';
 import { StaticImage } from 'gatsby-plugin-image';
 import BannerLogo from '../../../assets/logo-wowsolar60.svg';
@@ -165,7 +165,7 @@ export default function ProductWowsolar60(props) {
       </div>
 
       <div>
-        <ProductSlider reverse={true} tw="lg:py-48 py-16" />
+        <LightingSlider reverse={true} tw="lg:py-48 py-16" />
       </div>
       <div>
         <BecomeDistributor />
