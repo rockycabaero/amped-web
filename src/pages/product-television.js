@@ -10,7 +10,7 @@ import SvgOnGrid from '../assets/ico-on_grid.svg';
 import SvgLongerPlay from '../assets/ico-longer_play.svg';
 import SvgIntelligent from '../assets/ico-intelligent.svg';
 import ProductSlider2 from '../components/product-slider2';
-import ComparisonTable2 from '../components/comparison-table2';
+import TelevisionComparison from '../components/television-comparison';
 import ExtraInfoLight from '../components/extra-info-light';
 import InTheFieldGallery from '../components/in-field-gallery';
 import BecomeDistributor2 from '../components/sections/become-distributor2';
@@ -66,8 +66,8 @@ export default function ProductTelevision() {
       <div tw="bg-sitegray lg:py-48 py-16 px-4 lg:px-0">
         <div tw="lg:w-9/12 mx-auto">
           <SubHeader tw="lg:mb-24 mb-8">Comparison</SubHeader>
-          <div tw="overflow-x-scroll overflow-y-auto">
-            <ComparisonTable2 />
+          <div tw="overflow-hidden">
+            <TelevisionComparison />
           </div>
         </div>
       </div>
