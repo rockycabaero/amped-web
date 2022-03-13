@@ -14,7 +14,7 @@ export function Distributor2() {
           <Content.Title tw="mb-16 text-px24 lg:text-px54 font-sf-regular">
             Scale your business, Join Amped Innovation.
           </Content.Title>
-          <Button tw="text-px16" path="#" text="BECOME A DISTRIBUTOR" />
+          <Button tw="text-px16" path="experience-become-distributor" text="BECOME A DISTRIBUTOR" />
         </div>
         <div tw="lg:order-last order-first mb-4 lg:mb-0">
           <StaticImage
