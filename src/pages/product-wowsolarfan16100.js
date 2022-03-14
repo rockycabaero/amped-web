@@ -30,7 +30,7 @@ export default function ProductWowsolarFan16100() {
               loading="eager"
               placeholder="none"
               // src="../images/wowsolar_fan16120-hero.png"
-              src="../images/fan1.png"
+              src="../images/product-wowsolar_fan16100.png"
             />
           </div>
         </div>
