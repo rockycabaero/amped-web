@@ -12,9 +12,9 @@ import ComparisonTableFan from '../components/comparison-fan';
 import ExtraInfoLight from '../components/extra-info-light';
 import InTheFieldGallery from '../components/in-field-gallery';
 import BecomeDistributor2 from '../components/sections/become-distributor2';
-import SvgInsect from '../assets/ico-prevent_insects.svg';
-import SvgLongerFan from '../assets/ico-longer_fan.svg';
-import SvgOscillating from '../assets/ico-oscillating_movement.svg';
+import SvgAirFlow from '../assets/ico-high_speed_airflow.svg';
+import SvgLongerFan from '../assets/ico-fan_longer_runtimes.svg';
+import SvgAdvancedMotorDesign from '../assets/ico-advanced_motor_design.svg';
 
 export default function ProductFan() {
   return (
@@ -36,7 +36,7 @@ export default function ProductFan() {
             </Text>
             <div tw="grid lg:grid-cols-3 gap-8 grid-cols-1">
               <SvgCard
-                icon={<SvgInsect css={[{ width: 96 }]} />}
+                icon={<SvgAirFlow css={[{ width: 96 }]} />}
                 content={<span>High Speed Airflow</span>}
               />
               <SvgCard
@@ -44,8 +44,8 @@ export default function ProductFan() {
                 content={<span>Advanced Motor Design</span>}
               />
               <SvgCard
-                icon={<SvgOscillating css={[{ width: 96 }]} />}
-                content={<span>Logner Runtimes</span>}
+                icon={<SvgAdvancedMotorDesign css={[{ width: 96 }]} />}
+                content={<span>Longer Runtimes</span>}
               />
             </div>
           </div>
