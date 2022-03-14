@@ -117,10 +117,10 @@ export function NoCompromises(props) {
       <div tw="overflow-x-hidden">
         <div tw="grid grid-cols-1 lg:grid-cols-3 items-center gap-16 lg:-mr-80">
           <div tw="lg:pl-32">
-            <div tw="text-px24 lg:text-px54 mb-12 font-sf-regular">
+            <div tw="text-px24 lg:text-px54 mb-12 font-circular-bold">
               <div tw="my-4">Business</div>
             </div>
-            <div tw="text-lg lg:text-px21 font-sf-regular leading-normal">
+            <div tw="text-lg lg:text-px21 font-circular-regular leading-normal">
               Amped’s <WowSolar tw="text-px16 lg:text-px21" /> is specifically
               designed for use with appliances. The <WowSolar tw="text-px21" />{' '}
               is perfect for your business powering a television, fan or a large
