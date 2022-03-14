@@ -77,7 +77,7 @@ export function ProductSlider({ heading, reverse = false, ...rest }) {
                     </div>
                   }
                   action={
-                    <Button as="a" href="/product-wowsolar60">
+                    <Button as="a" href="/product-wowsolarfan16100">
                       VIEW PRODUCT
                     </Button>
                   }
@@ -106,7 +106,7 @@ export function ProductSlider({ heading, reverse = false, ...rest }) {
                     </div>
                   }
                   action={
-                    <Button as="a" href="/product-wowsolar100">
+                    <Button as="a" href="/product-wowsolarfan16120">
                       VIEW PRODUCT
                     </Button>
                   }
@@ -135,7 +135,7 @@ export function ProductSlider({ heading, reverse = false, ...rest }) {
                     </div>
                   }
                   action={
-                    <Button as="a" href="/product-wowsolar60">
+                    <Button as="a" href="/product-wowsolarfan16100">
                       VIEW PRODUCT
                     </Button>
                   }
@@ -164,7 +164,7 @@ export function ProductSlider({ heading, reverse = false, ...rest }) {
                     </div>
                   }
                   action={
-                    <Button as="a" href="/product-wowsolar100">
+                    <Button as="a" href="/product-wowsolarfan16120">
                       VIEW PRODUCT
                     </Button>
                   }
