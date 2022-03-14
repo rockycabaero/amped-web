@@ -84,7 +84,7 @@ export default function ProductWowsolar400() {
               }
             />
             <div tw="lg:mb-32 mb-16">
-              <div tw="text-lg lg:text-px28 lg:mb-16 mb-8">
+              <div tw="text-lg lg:text-px28 lg:mb-16 mb-8 lg:w-6/12">
                 The <WowSolar tw="text-2xl lg:text-px28" model={'400'} /> comes
                 in multiple light point configurations:
               </div>
