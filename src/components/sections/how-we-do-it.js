@@ -31,7 +31,7 @@ export function HowWeDoIt(props) {
               long evening runtimes.
             </div>
 
-            <Button text="HOW WE DO IT" path="#" />
+            <Button text="HOW WE DO IT" path="/innovations" />
           </div>
           <div tw="grid grid-cols-2 gap-4 lg:gap-0 ">
             <div tw="lg:pr-4">
