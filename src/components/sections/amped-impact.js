@@ -15,7 +15,7 @@ function MetricCard({ value, label }) {
 
 export function AmpedImpact(props) {
   return (
-    <div tw="px-4 lg:px-0 py-20 lg:py-48 ">
+    <div tw="px-4 lg:px-0 py-20 lg:py-52 ">
       <div tw="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 w-full lg:w-9/12 mx-auto">
         <div tw="lg:pr-16 text-center lg:text-left">
           <div tw="text-px24 lg:text-px54 mb-12 font-sf-regular">
