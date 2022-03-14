@@ -16,9 +16,10 @@ export function ProductSlider({ heading, reverse = false, ...rest }) {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
+    variableWidth: true,
     responsive: [
       {
-        breakpoint: 480,
+        breakpoint: 3000,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -62,6 +63,8 @@ export function ProductSlider({ heading, reverse = false, ...rest }) {
                       loading="eager"
                       placeholder="none"
                       src="../images/fan1.png"
+                      width={440}
+                      height={440}
                     />
                   }
                   title={
@@ -89,6 +92,8 @@ export function ProductSlider({ heading, reverse = false, ...rest }) {
                       loading="eager"
                       placeholder="none"
                       src="../images/fan2.png"
+                      width={440}
+                      height={440}
                     />
                   }
                   title={
@@ -116,6 +121,8 @@ export function ProductSlider({ heading, reverse = false, ...rest }) {
                       loading="eager"
                       placeholder="none"
                       src="../images/fan1.png"
+                      width={440}
+                      height={440}
                     />
                   }
                   title={
@@ -143,6 +150,8 @@ export function ProductSlider({ heading, reverse = false, ...rest }) {
                       loading="eager"
                       placeholder="none"
                       src="../images/fan2.png"
+                      width={440}
+                      height={440}
                     />
                   }
                   title={
