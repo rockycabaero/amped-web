@@ -16,7 +16,7 @@ import {
   cellBorderStyleY,
 } from "../helpers/table-style";
 
-export function ComparisonTable() {
+export function ComparisonTableLighting() {
   return (
     <div
       style={{
@@ -228,4 +228,4 @@ export function ComparisonTable() {
   );
 }
 
-export default ComparisonTable;
+export default ComparisonTableLighting;

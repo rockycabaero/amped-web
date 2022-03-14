@@ -2,7 +2,7 @@ import * as React from "react";
 import tw, { css } from "twin.macro";
 import Layout from "../components/layout";
 import HeroLightingAndPhoneCharging from "../components/heroes/lighting-and-phone-charging";
-import ComparisonTable from "../components/camparison-table";
+import ComparisonTableLighting from "../components/comparison-lighting";
 import UpgradeSteps2 from "../components/upgrade-steps-2";
 import ExtraInfoLight from "../components/extra-info-light";
 import BecomeDistributor from "../components/sections/become-distributor";
@@ -120,7 +120,7 @@ export default function ProductLightingAndPhoneCharging(props) {
         <div tw="w-9/12 m-auto">
           <SubHeader tw="font-sf-light mb-24">Comparison</SubHeader>
           <div css={[tableContainer]}>
-            <ComparisonTable />
+            <ComparisonTableLighting />
           </div>
         </div>
       </div>
