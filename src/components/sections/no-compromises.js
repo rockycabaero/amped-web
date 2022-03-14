@@ -95,10 +95,10 @@ export function NoCompromises(props) {
             </div>
           </div>
           <div>
-            <div tw="text-px24 lg:text-px54 mb-12 font-sf-regular">
+            <div tw="text-px24 lg:text-px54 mb-12 font-circular-bold">
               <div tw="my-4">Home</div>
             </div>
-            <div tw="text-px16 lg:text-px21 lg:pr-32 font-sf-regular leading-normal">
+            <div tw="text-px16 lg:text-px21 lg:pr-32 font-circular-regular leading-normal">
               <WowSolar tw="text-px16 lg:text-px21" /> is Amped’s premium
               lighting kit. From affordable to a high-performance home setup,
               our lighting and phone charging kits do it all. Our lighting
