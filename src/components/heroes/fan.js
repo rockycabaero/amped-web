@@ -64,7 +64,7 @@ export function Fan() {
           <StaticImage
             loading="eager"
             placeholder="none"
-            src="../../images/banner-fan-new.png"
+            src="../../images/product-wowsolar_fan16120.png"
           />
         </div>
       </Hero>
