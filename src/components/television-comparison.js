@@ -7,22 +7,12 @@ import SvgSolarPanel from "../assets/ico-solar-panel.svg";
 import SvgBattery from "../assets/ico-batter.svg";
 import SvgTv from "../assets/ico-tv.svg";
 import WowSolar from "./wowsolar";
-
-const cellBorderColor = "#B5C4CA";
-const cellBorderStyle = `1px solid ${cellBorderColor}`;
-const cellBorderStyleX = {
-  borderRight: cellBorderStyle,
-  borderLeft: cellBorderStyle,
-};
-const cellBorderStyleY = {
-  borderTop: cellBorderStyle,
-  borderBottom: cellBorderStyle,
-};
-
-const cellBorderStyleAll = {
-  ...cellBorderStyleX,
-  ...cellBorderStyleY,
-};
+import {
+  cellBorderStyle,
+  cellBorderStyleAll,
+  cellBorderStyleX,
+  cellBorderStyleY,
+} from "../helpers/table-style";
 
 export function TelevisionComparison() {
   return (
