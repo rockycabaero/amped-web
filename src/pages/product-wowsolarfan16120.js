@@ -1,21 +1,21 @@
-import * as React from 'react';
-import 'twin.macro';
-import { StaticImage } from 'gatsby-plugin-image';
-import Layout from '../components/layout';
-import WowSolarHero from '../components/heroes/wowsolar-hero';
-import WowSolar from '../components/wowsolar';
-import DataAndSpecSummary from '../components/data-and-spec-summary';
-import Button from '../components/_/button';
-import { SvgCardLandscape, SvgCard } from '../components/svg-card';
-import ExtraInfoFill from '../components/extra-info-fill';
-import BecomeDistributor2 from '../components/sections/become-distributor2';
-import SvgLight from '../assets/ico-light.svg';
+import * as React from "react";
+import "twin.macro";
+import { StaticImage } from "gatsby-plugin-image";
+import Layout from "../components/layout";
+import WowSolarHero from "../components/heroes/wowsolar-hero";
+import WowSolar from "../components/wowsolar";
+import DataAndSpecSummary from "../components/data-and-spec-summary";
+import Button from "../components/_/button";
+import { SvgCardLandscape, SvgCard } from "../components/svg-card";
+import ExtraInfoFill from "../components/extra-info-fill";
+import BecomeDistributor2 from "../components/sections/become-distributor2";
+import SvgLight from "../assets/ico-light.svg";
 
-import SvgPayGo from '../assets/ico-paygo-controller.svg';
-import SvgSolarPanel from '../assets/ico-solar-panel.svg';
-import SVGExternalBattery from '../assets/ico-external_battery.svg';
-import SVGFan from '../assets/ico-fan.svg';
-import BannerLogo from '../assets/logo-wowsolarfan16120.svg';
+import SvgPayGo from "../assets/ico-paygo-controller.svg";
+import SvgSolarPanel from "../assets/ico-solar-panel.svg";
+import SVGExternalBattery from "../assets/ico-external_battery.svg";
+import SVGFan from "../assets/ico-fan.svg";
+import BannerLogo from "../assets/logo-wowsolarfan16120.svg";
 
 export default function ProductWowsolarFan16120() {
   const detailRef = React.useRef();
@@ -66,8 +66,8 @@ export default function ProductWowsolarFan16120() {
               tw="mb-16 lg:mb-24"
               caption={
                 <span>
-                  The{' '}
-                  <WowSolar tw="text-2xl lg:text-px28" model={'FAN 16120'} />{' '}
+                  The{" "}
+                  <WowSolar tw="text-2xl lg:text-px28" model={"FAN 16120"} />{" "}
                   comes with 4 light points at 140 to 400 lumens, a large 50W
                   panel for faster phone charging and includes features like
                   adjustable standing height, oscillating movement and air
@@ -87,25 +87,28 @@ export default function ProductWowsolarFan16120() {
             />
             <div tw="mb-16 lg:mb-32">
               <div tw="text-2xl lg:text-px28 lg:mb-16 mb-8">
-                The <WowSolar tw="text-2xl lg:text-px28" model={'FAN16120'} />{' '}
+                The <WowSolar tw="text-2xl lg:text-px28" model={"FAN16120"} />{" "}
                 comes in configuration:
               </div>
               <SvgCardLandscape
                 tw="lg:w-1/2 mb-8"
                 title={
                   <>
-                    <span tw="text-primary">16120</span> Fan System
+                    <span tw="text-primary font-bold">16120</span> Fan System
                   </>
                 }
                 caption={
-                  'with four overhead lamps, 120 Whr total battery and a 40W panel'
+                  <span>
+                    with four overhead lamps, 120 Whr total battery and a 40W
+                    panel
+                  </span>
                 }
                 svg={
                   <>
-                    <SvgLight css={[{ width: 72 }]} />
-                    <SvgLight css={[{ width: 72 }]} />
-                    <SvgLight css={[{ width: 72 }]} />
-                    <SvgLight css={[{ width: 72 }]} />
+                    <SvgLight css={[{ width: 72, marginRight: 50 }]} />
+                    <SvgLight css={[{ width: 72, marginRight: 50 }]} />
+                    <SvgLight css={[{ width: 72, marginRight: 50 }]} />
+                    <SvgLight css={[{ width: 72, marginRight: 50 }]} />
                     <SvgSolarPanel css={[{ width: 72 }]} />
                   </>
                 }
@@ -118,23 +121,23 @@ export default function ProductWowsolarFan16120() {
               <div tw="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:w-1/2 mb-8 lg:mb-16">
                 <SvgCard
                   icon={<SvgPayGo css={[{ width: 72 }]} />}
-                  content={'20Whr Amped PAYGO Controller'}
+                  content={"20Whr Amped PAYGO Controller"}
                 />
                 <SvgCard
                   icon={<SVGExternalBattery css={[{ width: 72 }]} />}
-                  content={'80Whr External Battery'}
+                  content={"80Whr External Battery"}
                 />
                 <SvgCard
                   icon={<SvgLight css={[{ width: 72 }]} />}
-                  content={'3 Overhead Lamps'}
+                  content={"3 Overhead Lamps"}
                 />
                 <SvgCard
                   icon={<SvgSolarPanel css={[{ width: 72 }]} />}
-                  content={'50W Solar Panel'}
+                  content={"50W Solar Panel"}
                 />
                 <SvgCard
                   icon={<SVGFan css={[{ width: 72 }]} />}
-                  content={'16’’ Standing Fan'}
+                  content={"16’’ Standing Fan"}
                 />
               </div>
               <div tw="text-secondary text-px16">
@@ -149,11 +152,11 @@ export default function ProductWowsolarFan16120() {
           <ExtraInfoFill
             caption={
               <div>
-                Like other Amped solutions the{' '}
+                Like other Amped solutions the{" "}
                 <WowSolar
                   tw="text-2xl lg:text-px28"
                   model={<span tw="text-primary">FAN 16120 </span>}
-                />{' '}
+                />{" "}
                 can be upgrade with a TV in the customer’s home or business
                 without having to purchase another controller, lights or phone
                 charging cable.

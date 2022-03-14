@@ -15,10 +15,10 @@ export function SvgCard({ icon, content, ...rest }) {
 
 export function SvgCardLandscape({ title, caption, svg, ...rest }) {
   return (
-    <div tw="bg-sitegray p-8 rounded-md" {...rest}>
+    <div tw="bg-sitegray px-16 py-12 rounded-md" {...rest}>
       <div tw="text-px18 lg:text-px28">{title}</div>
-      <div tw="text-px14 lg:text-px21">{caption}</div>
-      <div tw="flex flex-nowrap">{svg}</div>
+      <div tw="text-px14 lg:text-px21 mt-7">{caption}</div>
+      <div tw="flex flex-nowrap mt-7">{svg}</div>
     </div>
   );
 }
