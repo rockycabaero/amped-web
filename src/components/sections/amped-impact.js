@@ -41,7 +41,7 @@ export function AmpedImpact(props) {
             />
           </div>
           <div>
-            <Button text="AMPED STORY" tw="px-4 py-2" path="#/" />
+            <Button text="AMPED STORY" tw="px-4 py-2" path="/experience-amped-story" />
           </div>
         </div>
         <div tw="lg:pl-16 order-first lg:order-last">
