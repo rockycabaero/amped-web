@@ -61,7 +61,7 @@ export function SubMenu({ ...rest }) {
               alt=""
               loading="eager"
               placeholder="none"
-              src="../../images/image-29.png"
+              src="../../images/product-fan.png"
             />
           }
           links={
