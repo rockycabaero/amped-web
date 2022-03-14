@@ -92,7 +92,7 @@ export function SubMenu({ ...rest }) {
               <HeaderLink path="/product-grid-backup" text="Solar Generator" />
               <div tw="text-px16 font-kallisto font-bold ">
                 POWER HUB{' '}
-                <span tw="ml-4 text-px12 rounded bg-sky-gray px-4 py-1">
+                <span tw="ml-4 text-px12 rounded bg-sky-gray px-4 py-1 text-white">
                   Coming Soon
                 </span>
               </div>
