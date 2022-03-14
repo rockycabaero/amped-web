@@ -13,3 +13,9 @@ export const cellBorderStyleAll = {
   ...cellBorderStyleX,
   ...cellBorderStyleY,
 };
+
+export const cellBorderStyleFooter = {
+  ...cellBorderStyleX,
+  ...cellBorderStyleY,
+  borderBottom: 0,
+};
