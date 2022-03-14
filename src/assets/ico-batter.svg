@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;}.cls-1{stroke:#80939e;}.cls-1,.cls-2{stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}.cls-2{stroke:#fc3f07;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="Group_1014" data-name="Group 1014"><g id="Group_1015" data-name="Group 1015"><line id="Line_222" data-name="Line 222" class="cls-1" x1="39.53" y1="25.02" x2="56.46" y2="25.02"/><path id="Path_565" data-name="Path 565" class="cls-1" d="M78.39,65.2V25h-9.3"/><path id="Path_566" data-name="Path 566" class="cls-1" d="M26.9,25H17.6V65.2"/><g id="Group_1014-2" data-name="Group 1014-2"><rect id="Rectangle_660" data-name="Rectangle 660" class="cls-2" x="26.9" y="17.61" width="12.63" height="7.41"/><rect id="Rectangle_661" data-name="Rectangle 661" class="cls-2" x="56.46" y="17.61" width="12.63" height="7.41"/></g><rect id="Rectangle_662" data-name="Rectangle 662" class="cls-2" x="17.6" y="65.2" width="60.79" height="13.2"/></g><rect id="Rectangle_663" data-name="Rectangle 663" class="cls-3" width="96" height="96"/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="ico-included_battery" transform="translate(-6444.519 -3353.943)">
+    <g id="Group_1015" data-name="Group 1015" transform="translate(6451.854 3361.279)">
+      <line id="Line_222" data-name="Line 222" x2="7.055" transform="translate(9.136 3.089)" fill="none" stroke="#7a96a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_565" data-name="Path 565" d="M6513.526,3394.123v-16.74h-3.874" transform="translate(-6488.199 -3374.294)" fill="none" stroke="#7a96a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_566" data-name="Path 566" d="M6464.82,3377.383h-3.874v16.74" transform="translate(-6460.946 -3374.294)" fill="none" stroke="#7a96a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <g id="Group_1014" data-name="Group 1014" transform="translate(3.874 0)">
+        <rect id="Rectangle_660" data-name="Rectangle 660" width="5.263" height="3.089" fill="none" stroke="#fc3f07" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <rect id="Rectangle_661" data-name="Rectangle 661" width="5.263" height="3.089" transform="translate(12.318)" fill="none" stroke="#fc3f07" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <rect id="Rectangle_662" data-name="Rectangle 662" width="25.328" height="5.499" transform="translate(0 19.829)" fill="none" stroke="#fc3f07" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <rect id="Rectangle_663" data-name="Rectangle 663" width="40" height="40" transform="translate(6444.519 3353.943)" fill="none"/>
+  </g>
+</svg>

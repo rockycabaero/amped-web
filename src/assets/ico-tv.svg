@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;}.cls-1{stroke:#7a96a0;}.cls-1,.cls-2{stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}.cls-2{stroke:#fc3f07;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect class="cls-1" x="12.3" y="18.98" width="71.4" height="48.26"/><rect class="cls-2" x="17.3" y="23.98" width="61.4" height="38.26"/><line class="cls-1" x1="48" y1="67.24" x2="48" y2="77.02"/><line class="cls-1" x1="34.84" y1="77.02" x2="61.16" y2="77.02"/><rect class="cls-3" width="96" height="96"/></g></g></svg>
+<svg id="ico-tv_screen_size" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <rect id="Rectangle_546" data-name="Rectangle 546" width="40" height="40" fill="none"/>
+  <g id="Group_745" data-name="Group 745" transform="translate(5.7 6.983)">
+    <rect id="Rectangle_547" data-name="Rectangle 547" width="28.257" height="21.341" fill="none" stroke="#7a96a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <rect id="Rectangle_548" data-name="Rectangle 548" width="23.835" height="16.919" transform="translate(2.211 2.211)" fill="none" stroke="#fc3f07" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_173" data-name="Line 173" y2="4.324" transform="translate(14.128 21.341)" fill="#fff" stroke="#7a96a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_174" data-name="Line 174" x2="11.638" transform="translate(8.309 25.665)" fill="#fff" stroke="#7a96a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>
