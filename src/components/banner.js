@@ -24,11 +24,12 @@ export function PrimaryHero({ data }) {
       >
         <Hero>
           <Caption>
-            <Caption.Header>
-              <div>It’s time to</div>
-              <div tw="font-bold text-primary font-sf-bold ">
+            <Caption.Header tw="leading-none">
+              <span>It’s time to</span>
+              <br/>
+              <span tw="font-bold text-primary font-sf-bold ">
                 redefine what’s possible
-              </div>
+              </span>
             </Caption.Header>
             <Caption.Text>
               City-like performance with off-grid efficiency. Solar products
