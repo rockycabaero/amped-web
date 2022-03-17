@@ -57,7 +57,7 @@ export default function AmpedStory() {
         </div>
         <div tw="text-2xl lg:text-px54 text-default lg:mb-32 mb-16">
           <div tw="leading-tight">REDEFINE</div>
-          <div tw="leading-tight text-primary">SOLAR</div>
+          <div tw="leading-tight text-primary font-bold">SOLAR</div>
         </div>
         <div tw="grid grid-cols-5 items-end">
           <div tw="grid grid-cols-2 col-span-4">
