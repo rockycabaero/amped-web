@@ -65,7 +65,7 @@ export default function ProductGridBackup() {
                   alt=""
                   loading="eager"
                   placeholder="none"
-                  src="../images/img-solar-generator.png"
+                  src="../images/product-powerhub.png"
                 />
               </div>
               <div tw="p-8">
