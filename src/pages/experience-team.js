@@ -105,7 +105,7 @@ export default function AmpedStory() {
                   alt=""
                   loading="eager"
                   placeholder="none"
-                  src="../images/team-default.png"
+                  src="../images/team-nicholas.png"
                 />
               }
               name="Nicholas Maina"
@@ -131,7 +131,14 @@ export default function AmpedStory() {
               position="Technical Support Engineer West Africa"
             />
             <EmployeeCard
-              avatar={<EmptyAvatar />}
+              avatar={
+                <StaticImage
+                  alt=""
+                  loading="eager"
+                  placeholder="none"
+                  src="../images/team-andrew.png"
+                />
+              }
               name="Andrew Abacha"
               position="Technical Support Engineer East Africa"
             />
