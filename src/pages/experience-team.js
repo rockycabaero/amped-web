@@ -3,7 +3,7 @@ import 'twin.macro';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/layout';
 import Banner from '../components/heroes/team';
-import Button from '../components/_/button';
+import Button from '../components/button';
 import Brands from '../components/brands';
 import TeamMap from '../assets/team-map.svg';
 
@@ -172,7 +172,7 @@ export default function AmpedStory() {
             <div tw="text-px21 mb-16">
               Interested in joining us? Reach out to careers@ampedinnovation.com
             </div>
-            <Button>CONTACT US</Button>
+            <Button path="/experience-contact-us" text="CONTACT US"></Button>
           </div>
         </div>
       </div>
