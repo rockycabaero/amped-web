@@ -187,7 +187,7 @@ export default function AmpedStory() {
       <div tw="px-8 lg:px-4 py-16 lg:py-48 overflow-x-hidden bg-sitegray">
         <div tw="grid grid-cols-1 lg:grid-cols-5 lg:w-9/12 mx-auto">
           <div tw="text-2xl lg:text-px32 col-span-2 mb-8 lg:mb-0">
-            <span tw="leading-tight">Download our Report</span>
+            <span tw="leading-tight">Recent News</span>
           </div>
           <div tw="col-span-3 relative">
             <div
