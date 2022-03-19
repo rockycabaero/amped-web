@@ -2,7 +2,7 @@ import * as React from 'react';
 import 'twin.macro';
 import Layout from '../components/layout';
 import Banner from '../components/heroes/amped-story';
-import { Logo } from '../components/_/logo';
+import { LogoInnovation } from '../components/_/logo';
 import { StaticImage } from 'gatsby-plugin-image';
 import WowSolarPortraitLogo from '../assets/logo-wowsolar.svg';
 
@@ -12,7 +12,7 @@ export default function AmpedStory() {
       <Banner />
       <div tw="relative px-4 lg:px-0 lg:w-6/12 mx-auto py-16 lg:py-48">
         <div tw="mb-8 lg:mb-32">
-          <Logo />
+          <LogoInnovation />
         </div>
         <div tw="text-lg lg:text-px21 text-default lg:mb-32 mb-16 mx-auto">
           <p tw="mb-8 lg:mb-16">
