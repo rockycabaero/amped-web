@@ -242,7 +242,7 @@ export default function Innovation() {
       </div>
       <div
         ref={section7}
-        tw="px-4 lg:px-0 pt-16 lg:pt-48 mb-16 lg:mb-32 bg-sitegray"
+        tw="px-4 lg:px-0 pt-16 lg:pt-48 mb-16 lg:mb-32 pb-32 bg-sitegray"
       >
         <div tw="lg:w-9/12 mx-auto grid grid-cols-1 lg:grid-cols-5">
           <div tw="col-span-2 text-4xl lg:text-px54 mb-8 lg:mb-0 leading-normal">
