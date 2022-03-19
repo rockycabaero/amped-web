@@ -1,4 +1,5 @@
 import * as React from 'react';
+import tw from 'twin.macro';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/layout';
 
