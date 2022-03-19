@@ -217,14 +217,19 @@ export default function AmpedStory() {
                         alt=""
                         loading="eager"
                         placeholder="none"
-                        src="../images/news-readmore-1.png"
+                        src="../images/news/Amped-Innovation-Solar-Home-System.jpg"
                       />
                     </div>
                   }
-                  title={
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
+                  title="Why We Invested: Amped Innovation"
+                  actions={
+                    <a
+                      href="https://fincaventures.com/why-we-invested-amped-innovation/"
+                      target="_blank"
+                    >
+                      Read More
+                    </a>
                   }
-                  actions={<a href="#/">Read More</a>}
                 />,
                 <DownloadableContent
                   media={
@@ -233,14 +238,19 @@ export default function AmpedStory() {
                         alt=""
                         loading="eager"
                         placeholder="none"
-                        src="../images/news-readmore-2.png"
+                        src="../images/news/Amped-.png"
                       />
                     </div>
                   }
-                  title={
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
+                  title="Introducing Our Newest Impact Investee: Amped Innovation"
+                  actions={
+                    <a
+                      href="https://www.sv2.org/introducing-our-newest-impact-investee-amped-innovation/"
+                      target="_blank"
+                    >
+                      Read More
+                    </a>
                   }
-                  actions={<a href="#/">Read More</a>}
                 />,
                 <DownloadableContent
                   media={
@@ -249,14 +259,19 @@ export default function AmpedStory() {
                         alt=""
                         loading="eager"
                         placeholder="none"
-                        src="../images/news-readmore-3.png"
+                        src="../images/news/Powerlines_-e1632405557671.jpeg"
                       />
                     </div>
                   }
-                  title={
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
+                  title="EDFI ElectriFI $6 Million to Support Amped Innovation’s African Projects"
+                  actions={
+                    <a
+                      href="https://energycapitalpower.com/edfi-electrifi-6-million-to-support-amped-innovations-african-projects/"
+                      target="_blank"
+                    >
+                      Read More
+                    </a>
                   }
-                  actions={<a href="#/">Read More</a>}
                 />,
                 <DownloadableContent
                   media={
@@ -265,46 +280,19 @@ export default function AmpedStory() {
                         alt=""
                         loading="eager"
                         placeholder="none"
-                        src="../images/news-readmore-1.png"
+                        src="../images/news/Amped-.png"
                       />
                     </div>
                   }
-                  title={
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
+                  title="Introducing Our Newest Impact Investee: Amped Innovation"
+                  actions={
+                    <a
+                      href="https://www.sv2.org/introducing-our-newest-impact-investee-amped-innovation/"
+                      target="_blank"
+                    >
+                      Read More
+                    </a>
                   }
-                  actions={<a href="#/">Read More</a>}
-                />,
-                <DownloadableContent
-                  media={
-                    <div>
-                      <StaticImage
-                        alt=""
-                        loading="eager"
-                        placeholder="none"
-                        src="../images/news-readmore-2.png"
-                      />
-                    </div>
-                  }
-                  title={
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
-                  }
-                  actions={<a href="#/">Read More</a>}
-                />,
-                <DownloadableContent
-                  media={
-                    <div>
-                      <StaticImage
-                        alt=""
-                        loading="eager"
-                        placeholder="none"
-                        src="../images/news-readmore-3.png"
-                      />
-                    </div>
-                  }
-                  title={
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
-                  }
-                  actions={<a href="#/">Read More</a>}
                 />,
               ]}
             />
