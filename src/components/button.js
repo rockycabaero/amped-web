@@ -5,7 +5,7 @@ export function Button({ path, text, ...rest }) {
   return (
     <a
       href={path}
-      tw="font-kallisto font-bold inline-block text-white rounded py-4 lg:px-16 px-4 w-full lg:w-auto text-center"
+      tw="inline-block text-px14 lg:text-px16 bg-primary text-white font-bold font-kallisto rounded py-4 px-8"
       css={[{ backgroundColor: '#FC4803' }]}
       {...rest}
     >

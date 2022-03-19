@@ -1,19 +1,18 @@
-import * as React from 'react';
+import * as React from "react";
 
-import Layout from '../components/layout';
-import Banner from '../components/heroes/become-distributor';
-import Button from '../components/_/button';
-import Brands from '../components/brands';
-import TextCard from '../components/text-card';
-import WowSolar from '../components/wowsolar';
-import { StaticImage } from 'gatsby-plugin-image';
-import AboutInvestment from '../components/sections/about-investment';
+import Layout from "../components/layout";
+import Banner from "../components/heroes/become-distributor";
+import Button from "../components/button";
+import TextCard from "../components/text-card";
+import WowSolar from "../components/wowsolar";
+import { StaticImage } from "gatsby-plugin-image";
+import AboutInvestment from "../components/sections/about-investment";
 
-import { css } from 'twin.macro';
-import Slider from 'react-slick';
+import { css } from "twin.macro";
+import Slider from "react-slick";
 
-import SliderButton from '../components/btn-slider-arrow';
-import PlayIcon from '../assets/ico-play_video.svg';
+import SliderButton from "../components/btn-slider-arrow";
+import PlayIcon from "../assets/ico-play_video.svg";
 
 const sliderOverride = css`
   & .slick-list,
@@ -200,7 +199,7 @@ export default function AmpedStory() {
               <p tw="mb-8">
                 There are many choices when it comes to solar manufacturers and
                 products. But you are most likely here because a fellow
-                distributor said “Have you heard of Amped?”{' '}
+                distributor said “Have you heard of Amped?”{" "}
               </p>
               <p tw="mb-8">
                 Introducing a new manufacturer is a huge commitment. There are
@@ -222,7 +221,7 @@ export default function AmpedStory() {
                     <sup tw="text-secondary">+</sup>
                   </div>
                 }
-                label={'Agents Certified'}
+                label={"Agents Certified"}
               />
               <TextCard
                 tw="bg-sitegray"
@@ -300,9 +299,11 @@ export default function AmpedStory() {
                   tw="text-px16 col-span-3 p-4 w-full lg:w-auto mb-8 lg:mb-0"
                   placeholder="Enter your email address"
                 />
-                <Button tw="col-span-2 lg:rounded-tl-none rounded-bl-none w-full lg:w-auto">
-                  BECOME A PARTNER
-                </Button>
+                <Button
+                  tw="col-span-2 lg:rounded-tl-none rounded-bl-none w-full lg:w-auto"
+                  path="mailto:andi@ampedinnovation.com"
+                  text="BECOME A PARTNER"
+                ></Button>
               </div>
             </div>
           </div>
@@ -319,8 +320,8 @@ export default function AmpedStory() {
               tw="absolute"
               css={[
                 {
-                  bottom: '20%',
-                  left: '-30%',
+                  bottom: "20%",
+                  left: "-30%",
                 },
               ]}
             >
@@ -345,7 +346,7 @@ export default function AmpedStory() {
                     </div>
                   }
                   caption={
-                    '““In my experience, the WOWsolar 32” TVs are a very interesting product. Very unique. This is a product that has been built for our kind of market. You’ll notice from how the product has been made to service the customer. Amped’s tech support has really been outstanding. So many nice things to say about the support team. They are like a part of the family. Basically, to have a partnership with Amped has been a joyride.””'
+                    "““In my experience, the WOWsolar 32” TVs are a very interesting product. Very unique. This is a product that has been built for our kind of market. You’ll notice from how the product has been made to service the customer. Amped’s tech support has really been outstanding. So many nice things to say about the support team. They are like a part of the family. Basically, to have a partnership with Amped has been a joyride.””"
                   }
                   author={
                     <StoryAuthor
@@ -359,8 +360,8 @@ export default function AmpedStory() {
                           />
                         </div>
                       }
-                      name={'Asaba Robert'}
-                      address={'Technical Manager, Yellow Uganda'}
+                      name={"Asaba Robert"}
+                      address={"Technical Manager, Yellow Uganda"}
                     />
                   }
                 />,
@@ -390,8 +391,8 @@ export default function AmpedStory() {
                           />
                         </div>
                       }
-                      name={'Mike Tenywa & Jeus Ainomugisha'}
-                      address={'Technical Manager, Brightlife'}
+                      name={"Mike Tenywa & Jeus Ainomugisha"}
+                      address={"Technical Manager, Brightlife"}
                     />
                   }
                 />,
@@ -407,7 +408,7 @@ export default function AmpedStory() {
                     </div>
                   }
                   caption={
-                    '““In my experience, the WOWsolar 32” TVs are a very interesting product. Very unique. This is a product that has been built for our kind of market. You’ll notice from how the product has been made to service the customer. Amped’s tech support has really been outstanding. So many nice things to say about the support team. They are like a part of the family. Basically, to have a partnership with Amped has been a joyride.””'
+                    "““In my experience, the WOWsolar 32” TVs are a very interesting product. Very unique. This is a product that has been built for our kind of market. You’ll notice from how the product has been made to service the customer. Amped’s tech support has really been outstanding. So many nice things to say about the support team. They are like a part of the family. Basically, to have a partnership with Amped has been a joyride.””"
                   }
                   author={
                     <StoryAuthor
@@ -421,8 +422,8 @@ export default function AmpedStory() {
                           />
                         </div>
                       }
-                      name={'Asaba Robert'}
-                      address={'Technical Manager, Yellow Uganda'}
+                      name={"Asaba Robert"}
+                      address={"Technical Manager, Yellow Uganda"}
                     />
                   }
                 />,
@@ -452,8 +453,8 @@ export default function AmpedStory() {
                           />
                         </div>
                       }
-                      name={'Mike Tenywa & Jeus Ainomugisha'}
-                      address={'Technical Manager, Brightlife'}
+                      name={"Mike Tenywa & Jeus Ainomugisha"}
+                      address={"Technical Manager, Brightlife"}
                     />
                   }
                 />,
@@ -486,7 +487,7 @@ export default function AmpedStory() {
                   </div>
                 }
                 label={
-                  'Product training and certification for sales acceleration'
+                  "Product training and certification for sales acceleration"
                 }
               />
               <TextCard
@@ -497,7 +498,7 @@ export default function AmpedStory() {
                   </div>
                 }
                 label={
-                  'Technical support and certifications to reduce the cost post-sales support'
+                  "Technical support and certifications to reduce the cost post-sales support"
                 }
               />
               <TextCard
@@ -507,7 +508,7 @@ export default function AmpedStory() {
                     <span tw="text-secondary">.</span>
                   </div>
                 }
-                label={'Fast product warranty response'}
+                label={"Fast product warranty response"}
               />
               <TextCard
                 value={
@@ -516,7 +517,7 @@ export default function AmpedStory() {
                     <span tw="text-secondary">.</span>
                   </div>
                 }
-                label={'Operational and shipping logistics help'}
+                label={"Operational and shipping logistics help"}
               />
               <TextCard
                 value={
@@ -525,7 +526,7 @@ export default function AmpedStory() {
                     <span tw="text-secondary">.</span>
                   </div>
                 }
-                label={'Financing including experience with Letters of Credit'}
+                label={"Financing including experience with Letters of Credit"}
               />
               <TextCard
                 value={
@@ -534,7 +535,7 @@ export default function AmpedStory() {
                     <span tw="text-secondary">.</span>
                   </div>
                 }
-                label={'Easy and multiple ways to pay'}
+                label={"Easy and multiple ways to pay"}
               />
               <TextCard
                 value={
@@ -544,7 +545,7 @@ export default function AmpedStory() {
                   </div>
                 }
                 label={
-                  'Collaboration on product roadmap for a differentiated product offering'
+                  "Collaboration on product roadmap for a differentiated product offering"
                 }
               />
             </div>
@@ -574,8 +575,8 @@ export default function AmpedStory() {
               tw="absolute"
               css={[
                 {
-                  bottom: '20%',
-                  left: '-30%',
+                  bottom: "20%",
+                  left: "-30%",
                 },
               ]}
             >
@@ -602,7 +603,7 @@ export default function AmpedStory() {
                       />
                     </div>
                   }
-                  title={'FAQ Sheet'}
+                  title={"FAQ Sheet"}
                   actions={<a href="#/">Download Now</a>}
                 />,
                 <DownloadableContent
@@ -617,7 +618,7 @@ export default function AmpedStory() {
                       />
                     </div>
                   }
-                  title={'Energy Budget Explained'}
+                  title={"Energy Budget Explained"}
                   actions={<a href="#/">Download Now</a>}
                 />,
                 <DownloadableContent
@@ -632,7 +633,7 @@ export default function AmpedStory() {
                       />
                     </div>
                   }
-                  title={'The Advantage of the Orange'}
+                  title={"The Advantage of the Orange"}
                   actions={<a href="#/">Download Now</a>}
                 />,
                 <DownloadableContent
@@ -689,7 +690,7 @@ export default function AmpedStory() {
                   }
                   title={
                     <div>
-                      <WowSolar tw="text-px28" model={'400'} /> - Product
+                      <WowSolar tw="text-px28" model={"400"} /> - Product
                       Training
                     </div>
                   }
@@ -710,7 +711,7 @@ export default function AmpedStory() {
                   }
                   title={
                     <div>
-                      <WowSolar tw="text-px28" model={'TV24100'} /> - Product
+                      <WowSolar tw="text-px28" model={"TV24100"} /> - Product
                       Training
                     </div>
                   }
@@ -731,7 +732,7 @@ export default function AmpedStory() {
                   }
                   title={
                     <div>
-                      <WowSolar tw="text-px28" model={'TV32120'} /> - Product
+                      <WowSolar tw="text-px28" model={"TV32120"} /> - Product
                       Training
                     </div>
                   }
@@ -742,14 +743,6 @@ export default function AmpedStory() {
           </div>
         </div>
       </div>
-      {/* <div tw="px-4 lg:px-0 py-16 lg:py-48">
-        <div tw="text-px28 lg:w-9/12 mx-auto text-center">
-          Strategic Partnerships and Key Collaborators
-        </div>
-        <div>
-          <Brands />
-        </div>
-      </div> */}
       <div tw="bg-sitegray">
         <AboutInvestment />
       </div>
