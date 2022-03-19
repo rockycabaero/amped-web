@@ -1,11 +1,12 @@
-import * as React from 'react';
-import 'twin.macro';
-import LinkCategory from './link-category';
-import { Link } from 'gatsby';
-import Copyright from './copyright';
-import { WhiteLogo } from '../_/logo';
+import * as React from "react";
+import "twin.macro";
+import LinkCategory from "./link-category";
+import { Link } from "gatsby";
+import Copyright from "./copyright";
+import { WhiteLogo } from "../_/logo";
+import WowSolar from "../wowsolar";
 
-function CategorizedLink({ name = '', links = [] }) {
+function CategorizedLink({ name = "", links = [] }) {
   if (!links.length) {
     return null;
   }
@@ -41,12 +42,12 @@ export function Footer() {
               name="PRODUCTS"
               links={[
                 {
-                  text: 'Lighting and Phone Charging',
-                  path: '/product-lighting-and-phone-charging',
+                  text: "Lighting and Phone Charging",
+                  path: "/product-lighting-and-phone-charging",
                 },
-                { text: 'Television', path: '/product-television' },
-                { text: 'Fan', path: '/product-fan' },
-                { text: 'Grid Backup', path: '/product-grid-backup' },
+                { text: "Television", path: "/product-television" },
+                { text: "Fan", path: "/product-fan" },
+                { text: "Grid Backup", path: "/product-grid-backup" },
               ]}
             />
           </div>
@@ -54,30 +55,49 @@ export function Footer() {
             <CategorizedLink
               name="INNOVATION"
               links={[
-                { text: 'World Class Design', path: '/innovations' },
-                { text: 'City-like Performance', path: '/innovations' },
-                { text: 'Africa Tough', path: '/innovations' },
-                { text: 'Smart Affordability', path: '/innovations' },
-                { text: 'Premium Materials', path: '/innovations' },
-                { text: 'Designed in the USA', path: '/innovations' },
+                { text: "World Class Design", path: "/innovations" },
+                { text: "City-like Performance", path: "/innovations" },
+                { text: "Smart Affordability", path: "/innovations" },
+                { text: "Premium Materials", path: "/innovations" },
+                { text: "Advanced Manufacturing", path: "" },
+                { text: "Africa Tough", path: "/innovations" },
+                { text: "Designed in the USA", path: "/innovations" },
               ]}
             />
           </div>
           <div>
             <CategorizedLink
-              name="EXPERIENCE"
+              name="Action"
               links={[
-                { text: 'Amped Story', path: '/experience-amped-story' },
                 {
-                  text: 'Customer Experience',
-                  path: '/experience-customer-experience',
+                  text: "Become a Distributor",
+                  path: "/experience-become-distributor/",
                 },
-                { text: 'Team', path: '/experience-team' },
                 {
-                  text: 'Become a Distributor',
-                  path: '/experience-become-distributor',
+                  text: "Become a customer",
+                  path: "/action-become-customer",
                 },
-                { text: 'Contact Us', path: '/experience-contact-us' },
+                { text: "Team", path: "/experience-team" },
+                {
+                  text: (
+                    <span>
+                      Buy <b>WOW</b>SOLAR&trade;
+                    </span>
+                  ),
+                  path: "/action-buy-wowsolar",
+                },
+                { text: "Invest", path: "/action-invest" },
+              ]}
+            />
+          </div>
+          <div>
+            <CategorizedLink
+              name="ABOUT"
+              links={[
+                { text: "Amped Story", path: "/experience-amped-story" },
+                { text: "Team", path: "/experience-team" },
+                { text: "News", path: "/about-news" },
+                { text: "Contact Us", path: "/experience-contact-us" },
               ]}
             />
           </div>
@@ -85,8 +105,8 @@ export function Footer() {
             <CategorizedLink
               name="SOCIAL"
               links={[
-                { text: 'Facebook', path: '/' },
-                { text: 'Twitter', path: '/' },
+                { text: "Facebook", path: "/" },
+                { text: "Twitter", path: "/" },
               ]}
             />
           </div>
