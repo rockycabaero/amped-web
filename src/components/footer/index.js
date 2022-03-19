@@ -55,19 +55,19 @@ export function Footer() {
             <CategorizedLink
               name="INNOVATION"
               links={[
-                { text: "World Class Design", path: "/innovations" },
-                { text: "City-like Performance", path: "/innovations" },
-                { text: "Smart Affordability", path: "/innovations" },
-                { text: "Premium Materials", path: "/innovations" },
-                { text: "Advanced Manufacturing", path: "" },
-                { text: "Africa Tough", path: "/innovations" },
-                { text: "Designed in the USA", path: "/innovations" },
+                { text: "World Class Design", path: "/innovations#" },
+                { text: "City-like Performance", path: "/innovations#city-like-performance" },
+                { text: "Smart Affordability", path: "/innovations#smart-affordability" },
+                { text: "Premium Materials", path: "/innovations#premium-materials" },
+                { text: "Advanced Manufacturing", path: "/innovations#advanced-manufacturing" },
+                { text: "Africa Tough", path: "/innovations#africa-tough" },
+                { text: "Designed in the USA", path: "/innovations#designed-in-the-usa" },
               ]}
             />
           </div>
           <div>
             <CategorizedLink
-              name="Action"
+              name="ACTION"
               links={[
                 {
                   text: "Become a Distributor",

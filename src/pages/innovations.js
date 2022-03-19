@@ -1,7 +1,7 @@
-import * as React from 'react';
-import tw from 'twin.macro';
-import { StaticImage } from 'gatsby-plugin-image';
-import Layout from '../components/layout';
+import * as React from "react";
+import tw from "twin.macro";
+import { StaticImage } from "gatsby-plugin-image";
+import Layout from "../components/layout";
 
 function Submenu({ sections }) {
   function handleClick(e, idx) {
@@ -13,7 +13,7 @@ function Submenu({ sections }) {
       <ul tw="py-8 w-10/12 mx-auto text-px16 flex font-circular-book items-center justify-between">
         <li>
           <a
-            href="#/"
+            href="#"
             tw="px-4 inline-block cursor-pointer hover:text-solar-100 active:text-solar-80"
             onClick={(e) => handleClick(e, 0)}
           >
@@ -25,7 +25,7 @@ function Submenu({ sections }) {
         </li>
         <li>
           <a
-            href="#/"
+            href="#city-like-performance"
             tw="px-4 inline-block cursor-pointer hover:text-solar-100 active:text-solar-80"
             onClick={(e) => handleClick(e, 1)}
           >
@@ -37,7 +37,7 @@ function Submenu({ sections }) {
         </li>
         <li>
           <a
-            href="#/"
+            href="#smart-affordability"
             tw="px-4 inline-block cursor-pointer hover:text-solar-100 active:text-solar-80"
             onClick={(e) => handleClick(e, 2)}
           >
@@ -49,7 +49,7 @@ function Submenu({ sections }) {
         </li>
         <li>
           <a
-            href="#/"
+            href="#premium-materials"
             tw="px-4 inline-block cursor-pointer hover:text-solar-100 active:text-solar-80"
             onClick={(e) => handleClick(e, 3)}
           >
@@ -61,7 +61,7 @@ function Submenu({ sections }) {
         </li>
         <li>
           <a
-            href="#/"
+            href="#advanced-manufacturing"
             tw="px-4 inline-block cursor-pointer hover:text-solar-100 active:text-solar-80"
             onClick={(e) => handleClick(e, 4)}
           >
@@ -73,7 +73,7 @@ function Submenu({ sections }) {
         </li>
         <li>
           <a
-            href="#/"
+            href="#africa-tough"
             tw="px-4 inline-block cursor-pointer hover:text-solar-100 active:text-solar-80"
             onClick={(e) => handleClick(e, 5)}
           >
@@ -85,7 +85,7 @@ function Submenu({ sections }) {
         </li>
         <li>
           <a
-            href="#/"
+            href="#designed-in-the-usa"
             tw="px-4 inline-block cursor-pointer hover:text-solar-100 active:text-solar-80"
             onClick={(e) => handleClick(e, 6)}
           >
@@ -105,6 +105,28 @@ export default function Innovation() {
   const section5 = React.useRef();
   const section6 = React.useRef();
   const section7 = React.useRef();
+
+  const scrollOnInit = () => {
+    console.clear();
+    console.log(window.location);
+
+    switch (window.location.hash) {
+      case "#city-like-performance":
+        console.clear();
+        console.log(section1);
+        section1.current.scrollIntoView();
+        break;
+      // case "#smart-affordability":
+      //   section2.scrollIntoView();
+      //   break;
+    }
+  };
+
+  // React.useEffect(() => {
+  //   setTimeout(() => {
+  //     scrollOnInit();
+  //   }, 2000);
+  // }, []);
 
   return (
     <Layout pageTitle="Innovations">
