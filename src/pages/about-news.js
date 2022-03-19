@@ -1,13 +1,13 @@
-import * as React from 'react';
-import { css } from 'twin.macro';
-import Slider from 'react-slick';
-import { StaticImage } from 'gatsby-plugin-image';
-import Layout from '../components/layout';
-import Banner from '../components/heroes/news';
-import { SubHeader } from '../components/_/header';
-import SliderButton from '../components/btn-slider-arrow';
-import PlayIcon from '../assets/ico-play_video.svg';
-import Button from '../components/_/button';
+import * as React from "react";
+import { css } from "twin.macro";
+import Slider from "react-slick";
+import { StaticImage } from "gatsby-plugin-image";
+import Layout from "../components/layout";
+import Banner from "../components/heroes/news";
+import { SubHeader } from "../components/_/header";
+import SliderButton from "../components/btn-slider-arrow";
+import PlayIcon from "../assets/ico-play_video.svg";
+import Button from "../components/button";
 
 const sliderOverride = css`
   & .slick-list,
@@ -194,8 +194,8 @@ export default function AmpedStory() {
               tw="absolute"
               css={[
                 {
-                  bottom: '20%',
-                  left: '-30%',
+                  bottom: "20%",
+                  left: "-30%",
                 },
               ]}
             >
@@ -222,7 +222,7 @@ export default function AmpedStory() {
                     </div>
                   }
                   title={
-                    'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium'
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
                   }
                   actions={<a href="#/">Read More</a>}
                 />,
@@ -238,7 +238,7 @@ export default function AmpedStory() {
                     </div>
                   }
                   title={
-                    'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium'
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
                   }
                   actions={<a href="#/">Read More</a>}
                 />,
@@ -254,7 +254,7 @@ export default function AmpedStory() {
                     </div>
                   }
                   title={
-                    'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium'
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
                   }
                   actions={<a href="#/">Read More</a>}
                 />,
@@ -270,7 +270,7 @@ export default function AmpedStory() {
                     </div>
                   }
                   title={
-                    'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium'
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
                   }
                   actions={<a href="#/">Read More</a>}
                 />,
@@ -286,7 +286,7 @@ export default function AmpedStory() {
                     </div>
                   }
                   title={
-                    'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium'
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
                   }
                   actions={<a href="#/">Read More</a>}
                 />,
@@ -302,7 +302,7 @@ export default function AmpedStory() {
                     </div>
                   }
                   title={
-                    'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium'
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
                   }
                   actions={<a href="#/">Read More</a>}
                 />,
@@ -330,9 +330,11 @@ export default function AmpedStory() {
                   tw="text-px16 col-span-3 p-4 w-full lg:w-auto mb-8 lg:mb-0"
                   placeholder="Enter your email address"
                 />
-                <Button tw="col-span-2 lg:rounded-tl-none rounded-bl-none w-full lg:w-auto">
-                  SUBSCRIBE NOW
-                </Button>
+                <Button
+                  tw="col-span-2 lg:rounded-tl-none rounded-bl-none w-full lg:w-auto text-center"
+                  text="SUBSCRIBE NOW"
+                  path="mailto:andi@ampedinnovation.com"
+                ></Button>
               </div>
             </div>
           </div>
