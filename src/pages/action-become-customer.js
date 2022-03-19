@@ -7,7 +7,7 @@ import Banner from '../components/heroes/become-customer';
 import { SubHeader } from '../components/_/header';
 import SliderButton from '../components/btn-slider-arrow';
 import PlayIcon from '../assets/ico-play_video.svg';
-import Button from '../components/_/button';
+import Button from '../components/button';
 import WowSolar from '../components/wowsolar';
 import BuyWowSolar2 from '../components/sections/buy-wowsolar2';
 
@@ -249,9 +249,7 @@ export default function AmpedStory() {
                   tw="text-px16 col-span-3 p-4 w-full lg:w-auto mb-8 lg:mb-0"
                   placeholder="Enter your email address"
                 />
-                <Button tw="col-span-2 lg:rounded-tl-none rounded-bl-none w-full lg:w-auto">
-                  SUBSCRIBE NOW
-                </Button>
+                <Button tw="col-span-2 lg:rounded-tl-none rounded-bl-none w-full lg:w-auto text-center" text="SUBSCRIBE NOW" path="mailto:andi@ampedinnovation.com"></Button>
               </div>
             </div>
           </div>
