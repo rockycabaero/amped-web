@@ -1,13 +1,13 @@
-import * as React from 'react';
-import { css } from 'twin.macro';
-import Slider from 'react-slick';
-import { StaticImage } from 'gatsby-plugin-image';
-import Layout from '../components/layout';
-import Banner from '../components/heroes/buy-wowsolar';
-import BuyWowSolar from '../components/sections/buy-wowsolar';
-import { SubHeader } from '../components/_/header';
-import PlayIcon from '../assets/ico-play_video.svg';
-import BuyWowSolarCountries from '../components/buy-wowsolar-countries/buy-wowsolar-countries';
+import * as React from "react";
+import { css } from "twin.macro";
+import Slider from "react-slick";
+import { StaticImage } from "gatsby-plugin-image";
+import Layout from "../components/layout";
+import Banner from "../components/heroes/buy-wowsolar";
+import BuyWowSolar from "../components/sections/buy-wowsolar";
+import { SubHeader } from "../components/_/header";
+import PlayIcon from "../assets/ico-play_video.svg";
+import BuyWowSolarCountries from "../components/buy-wowsolar-countries/buy-wowsolar-countries";
 
 const sliderOverride = css`
   & .slick-list,
@@ -200,7 +200,7 @@ export default function AmpedStory() {
         </div>
       </div>
 
-      <BuyWowSolarCountries tw="px-4 lg:px-0 lg:w-9/12 mx-auto py-16 pb-48"/>
+      <BuyWowSolarCountries />
 
       <div tw="bg-sitegray">
         <BuyWowSolar />
