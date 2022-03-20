@@ -59,7 +59,7 @@ export default function AmpedStory() {
           <div tw="leading-tight">REDEFINE</div>
           <div tw="leading-tight text-primary font-bold">SOLAR</div>
         </div>
-        <div tw="grid grid-cols-5 items-end">
+        <div tw="grid grid-cols-5 items-end" style={{marginTop: '-14.5em'}}>
           <div tw="grid grid-cols-2 col-span-4">
             <div tw="text-px21">
               <div tw="w-6/12 mb-12">
