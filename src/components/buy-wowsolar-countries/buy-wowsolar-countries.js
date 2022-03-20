@@ -2,19 +2,33 @@ import * as React from "react";
 import SelectOption from "../../components/select-option";
 import IcoPhone from "../../assets/ico-phone.svg";
 import TeamMap from "../../assets/team-map.svg";
-import 'twin.macro';
+import "twin.macro";
+import wowSolarCountries from "./wowsolar-countries";
 
-function ContactCard({ icon, content, label }) {
+function ContactCard({ email, contact, label }) {
   return (
     <div tw="bg-sitegray rounded p-8">
-      <div tw="mb-8">{icon}</div>
-      <div tw="text-px21 font-bold">{content}</div>
+      <div tw="mb-8">
+        <div>
+          <IcoPhone />
+        </div>
+      </div>
+      <div tw="text-px21 font-bold">
+        <div tw="mb-6">
+          <div tw="mb-4">{email}</div>
+          <div>{contact}</div>
+        </div>
+      </div>
       <div tw="text-secondary text-px16">{label}</div>
     </div>
   );
 }
 
 export function BuyWowSolarCountries() {
+  const [selectedCountry, setSelectedCountry] = React.useState(
+    wowSolarCountries[0]
+  );
+
   return (
     <div tw="px-4 lg:px-0 lg:w-9/12 mx-auto py-16 pb-48">
       <div tw="grid grid-cols-1 lg:grid-cols-5">
@@ -29,55 +43,29 @@ export function BuyWowSolarCountries() {
           </div>
           <div tw="mb-4">
             <div tw="mb-4">Select a Country</div>
-            <SelectOption tw="w-full">
-              <option>Kenya</option>
+            <SelectOption
+              tw="w-full"
+              name="selectedCountry"
+              onChange={(e) => {
+                const selectedIndex = e.target.value;
+                setSelectedCountry(wowSolarCountries[selectedIndex]);
+              }}
+            >
+              {wowSolarCountries.map((country, i) => (
+                <option value={i}>{country.name}</option>
+              ))}
             </SelectOption>
-            <div tw="flex justify-center items-center">
-              <TeamMap />
+            <div tw="flex justify-center items-center my-12">
+              {selectedCountry.mapImg}
             </div>
             <div tw="grid grid-cols-2 justify-between gap-8">
-              <ContactCard
-                icon={
-                  <div>
-                    <IcoPhone />
-                  </div>
-                }
-                content={
-                  <div tw="mb-6">
-                    <div tw="mb-4">info@solariumsolar.ke</div>
-                    <div>1-888-502-2236</div>
-                  </div>
-                }
-                label="Solarium Solar"
-              />
-              <ContactCard
-                icon={
-                  <div>
-                    <IcoPhone />
-                  </div>
-                }
-                content={
-                  <div tw="mb-6">
-                    <div tw="mb-4">info@mwezisolar.ke</div>
-                    <div>1-888-502-2236</div>
-                  </div>
-                }
-                label="Mwezi Solar"
-              />
-              <ContactCard
-                icon={
-                  <div>
-                    <IcoPhone />
-                  </div>
-                }
-                content={
-                  <div tw="mb-6">
-                    <div tw="mb-4">info@economesolar.ke</div>
-                    <div>1-888-502-2236</div>
-                  </div>
-                }
-                label="Econome Solar"
-              />
+              {selectedCountry.branches.map((branch) => (
+                <ContactCard
+                  email={branch.email}
+                  contact={branch.contact}
+                  label={branch.label}
+                />
+              ))}
             </div>
           </div>
         </div>
