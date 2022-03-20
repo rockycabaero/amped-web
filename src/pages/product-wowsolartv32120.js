@@ -10,7 +10,7 @@ import { SvgCardLandscape, SvgCard } from '../components/svg-card';
 import ExtraInfoFill from '../components/extra-info-fill';
 import BecomeDistributor2 from '../components/sections/become-distributor2';
 import SvgLight from '../assets/ico-light.svg';
-//
+
 import SvgPayGo from '../assets/ico-paygo-controller.svg';
 import SvgSolarPanel from '../assets/ico-solar-panel.svg';
 import SvgExternalBattery from '../assets/ico-external_battery.svg';
