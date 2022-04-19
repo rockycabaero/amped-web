@@ -14,7 +14,7 @@ export function BuyWowSolar() {
           <Content.Title tw="mb-16">
             For bulk orders please contact our representative
           </Content.Title>
-          <Button path="experience-contact-us" text="CONTACT US" />
+          <Button path="/experience-contact-us" text="CONTACT US" />
         </div>
         <div tw="lg:order-last order-first mb-4 lg:mb-0">
           <StaticImage
