@@ -217,11 +217,11 @@ export default function AmpedStory() {
                         alt=""
                         loading="eager"
                         placeholder="none"
-                        src="../images/news/Amped-Innovation-Solar-Home-System.jpg"
+                        src="../images/news/cover-3.png"
                       />
                     </div>
                   }
-                  title="Why We Invested: Amped Innovation"
+                  title="Amped Innovation Completes Series A to Catalyze Demand for Off-Grid Energy Appliances"
                   actions={
                     <a
                       href="https://fincaventures.com/why-we-invested-amped-innovation/"
@@ -238,7 +238,7 @@ export default function AmpedStory() {
                         alt=""
                         loading="eager"
                         placeholder="none"
-                        src="../images/news/Amped-.png"
+                        src="../images/news/cover-2.png"
                       />
                     </div>
                   }
@@ -259,7 +259,7 @@ export default function AmpedStory() {
                         alt=""
                         loading="eager"
                         placeholder="none"
-                        src="../images/news/Powerlines_-e1632405557671.jpeg"
+                        src="../images/news/cover-1.png"
                       />
                     </div>
                   }
@@ -280,7 +280,7 @@ export default function AmpedStory() {
                         alt=""
                         loading="eager"
                         placeholder="none"
-                        src="../images/news/Amped-.png"
+                        src="../images/news/cover-2.png"
                       />
                     </div>
                   }
