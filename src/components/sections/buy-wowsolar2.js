@@ -14,7 +14,7 @@ export function BuyWowSolar() {
           <Content.Title tw="mb-16">
             Amped works with dozens of distributors in 23 countries.
           </Content.Title>
-          <Button path="/product-lighting-and-phone-charging" text="BUY WOWSOLAR" />
+          <Button path="/action-buy-wowsolar" text="BUY WOWSOLAR" />
         </div>
         <div tw="lg:order-last order-first mb-4 lg:mb-0">
           <StaticImage
