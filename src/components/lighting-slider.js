@@ -1,12 +1,12 @@
-import * as React from 'react';
-import tw from 'twin.macro';
-import Slider from 'react-slick';
-import ProductCardLandscape from './product-card-landscape';
-import { StaticImage } from 'gatsby-plugin-image';
-import WowSolar from './wowsolar';
-
-import Button from './_/button';
-import SliderButton from './btn-slider-arrow';
+import * as React from "react";
+import tw from "twin.macro";
+import Slider from "react-slick";
+import ProductCardLandscape from "./product-card-landscape";
+import { StaticImage } from "gatsby-plugin-image";
+import WowSolar from "./wowsolar";
+import GlobalStyles from './global-styles';
+import Button from "./_/button";
+import SliderButton from "./btn-slider-arrow";
 
 export function LightingSlider({ heading, reverse = false, ...rest }) {
   const sliderRef = React.useRef();
@@ -39,8 +39,8 @@ export function LightingSlider({ heading, reverse = false, ...rest }) {
           }}
           css={[
             {
-              bottom: '5%',
-              left: '10%',
+              bottom: "5%",
+              left: "10%",
             },
           ]}
         />
@@ -49,7 +49,7 @@ export function LightingSlider({ heading, reverse = false, ...rest }) {
           <div
             css={[
               {
-                width: '110vw',
+                width: "110vw",
               },
             ]}
           >
@@ -63,6 +63,8 @@ export function LightingSlider({ heading, reverse = false, ...rest }) {
                       loading="eager"
                       placeholder="none"
                       src="../images/slider-wowsolar-60-new.png"
+                      width={440}
+                      height={440}
                     />
                   }
                   title={<WowSolar tw="text-px18 lg:text-px32" model={60} />}
@@ -88,6 +90,8 @@ export function LightingSlider({ heading, reverse = false, ...rest }) {
                       loading="eager"
                       placeholder="none"
                       src="../images/slider-wowsolar100-new.png"
+                      width={440}
+                      height={440}
                     />
                   }
                   title={<WowSolar tw="text-px18 lg:text-px32" model={100} />}
@@ -114,6 +118,8 @@ export function LightingSlider({ heading, reverse = false, ...rest }) {
                       loading="eager"
                       placeholder="none"
                       src="../images/slider-wowsolar-400-new.png"
+                      width={440}
+                      height={440}
                     />
                   }
                   title={<WowSolar tw="text-px18 lg:text-px32" model={400} />}
@@ -139,6 +145,8 @@ export function LightingSlider({ heading, reverse = false, ...rest }) {
                       loading="eager"
                       placeholder="none"
                       src="../images/slider-wowsolar-60-new.png"
+                      width={440}
+                      height={440}
                     />
                   }
                   title={<WowSolar tw="text-px18 lg:text-px32" model={60} />}
@@ -164,6 +172,8 @@ export function LightingSlider({ heading, reverse = false, ...rest }) {
                       loading="eager"
                       placeholder="none"
                       src="../images/slider-wowsolar100-new.png"
+                      width={440}
+                      height={440}
                     />
                   }
                   title={<WowSolar tw="text-px18 lg:text-px32" model={100} />}
@@ -190,6 +200,8 @@ export function LightingSlider({ heading, reverse = false, ...rest }) {
                       loading="eager"
                       placeholder="none"
                       src="../images/slider-wowsolar-400-new.png"
+                      width={440}
+                      height={440}
                     />
                   }
                   title={<WowSolar tw="text-px18 lg:text-px32" model={400} />}
