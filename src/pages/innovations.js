@@ -259,7 +259,7 @@ export default function Innovation() {
           </div>
         </div>
         <div tw="flex items-center justify-center relative">
-          <StaticImage src="../images/innov-africa-tough.png" />
+          <StaticImage src="../images/innovation-africa_tough.jpg" />
         </div>
       </div>
       <div
