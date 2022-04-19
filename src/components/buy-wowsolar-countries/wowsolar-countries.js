@@ -42,14 +42,14 @@ export const wowSolarCountries = [
   },
   {
     name: "Kenya",
-    // mapImg: (
-    //     <StaticImage
-    //       alt=""
-    //       loading="eager"
-    //       placeholder="Benin-map"
-    //       src="../../images/countries/buy_wowsolar-benin.png"
-    //     />
-    //   ),
+    mapImg: (
+        <StaticImage
+          alt=""
+          loading="eager"
+          placeholder="Benin-map"
+          src="../../images/countries/buy_wowsolar-kenya.png"
+        />
+      ),
     branches: [
       {
         email: "info@econome.africa",
@@ -113,7 +113,7 @@ export const wowSolarCountries = [
           src="../../images/countries/buy_wowsolar-nigeria.png"
         />
       ),
-    branche: [
+    branches: [
       {
         email: "operations@switchsolarng.com",
         contact: "+234 817 030 1944",

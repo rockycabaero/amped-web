@@ -48,6 +48,7 @@ export function BuyWowSolarCountries() {
               name="selectedCountry"
               onChange={(e) => {
                 const selectedIndex = e.target.value;
+                console.log(wowSolarCountries[selectedIndex]);
                 setSelectedCountry(wowSolarCountries[selectedIndex]);
               }}
             >
