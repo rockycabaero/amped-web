@@ -102,10 +102,11 @@ export default function ProductWowsolarTv24100() {
                 }
                 svg={
                   <>
-                    <SvgLight css={[{ width: 72 }]} />
-                    <SvgLight css={[{ width: 72 }]} />
-                    <SvgLight css={[{ width: 72 }]} />
-                    <SvgLight css={[{ width: 72 }]} />
+                    <SvgLight css={[{ width: 72, marginRight: 46 }]} />
+                    <SvgLight css={[{ width: 72, marginRight: 46 }]} />
+                    <SvgLight css={[{ width: 72, marginRight: 46 }]} />
+                    <SvgLight css={[{ width: 72, marginRight: 46 }]} />
+                    <SvgSolarPanel css={[{ width: 72 }]} />
                   </>
                 }
               />
